@@ -1,0 +1,15 @@
+[package]
+name = "Allergy-Registry"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x39f47fe4f3754ff7ac353f44907341a0fe562f49ca7d6e73dbc607d77716c3ea"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
